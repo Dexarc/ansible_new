@@ -1,7 +1,6 @@
 - hosts: localhost
 
   tasks:
-  
     - name: Setting up Security/Firewall Group
       ec2_group:
          name: new_ec2
